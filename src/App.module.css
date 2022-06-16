@@ -1,0 +1,112 @@
+.Wrapper {
+  padding-top: 25px;
+}
+
+.Container {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.Box {
+  display: block;
+  width: 100%;
+}
+
+.Label {
+  display: block;
+}
+
+.UserText {
+  box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+  width: 100%;
+  margin: 5px 0;
+  padding: 0.5rem;
+}
+
+.DefaultChecked {
+  display: block;
+  margin-top: 10px;
+}
+
+.DefaultChecked span {
+  margin-left: 5px;
+}
+
+.Title {
+  margin-top: 1rem;
+}
+
+.CustomReplace {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.CustomReplace input {
+  padding: 0.5rem;
+}
+
+.Buttons {
+  margin-top: 15px;
+}
+
+.BlueButton {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 1rem 0;
+  font-family: inherit;
+  padding: 0.85em 1em;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1779ba;
+  color: #fefefe;
+}
+
+.BlueButton:focus,
+.BlueButton:hover {
+  background-color: #14679e;
+  color: #fefefe;
+}
+
+.GreenButton {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 1rem 0;
+  font-family: inherit;
+  padding: 0.85em 1em;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #3adb76;
+  color: #0a0a0a;
+}
+
+.GreenButton:focus,
+.GreenButton:hover {
+  background-color: #22bb5b;
+  color: #0a0a0a;
+}
+
+.ReplaceAll {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.ReplaceAll span {
+  margin-left: 5px;
+}
